@@ -1,0 +1,52 @@
+<html>
+	<head>
+		<title>Challange 11</title>
+	</head>
+
+
+	<body>
+
+		<script>
+
+			var numberArray = [7, -3, 0, 12, 44, -5, 3];
+			console.log(numberArray.sort(function(a,b){return a-b}));
+			var oddIntegers= 0;
+			var  negative = 0;
+			var sum = 0;
+
+
+			
+
+				for( var i = 0; i < numberArray.length; i ++){
+					sum = sum + numberArray[i];
+					if(numberArray[i] % 2 !== 0){
+						oddIntegers ++;
+						
+					}
+
+					if(numberArray[i] < 0){
+						negative ++;
+
+					}
+				};
+
+			// return { odds:oddIntegers ,  negatives:negative, average:average, median: median }
+			
+
+				
+				average = sum / numberArray.length;
+				console.log(sum);
+				average = Math.round(average * 100)/100;
+				var median = Math.floor(numberArray.length/2);
+				var result =  { odds:oddIntegers , negatives:negative, average: average, median: median };
+				console.log(result);
+				console.log(average);
+				console.log(oddIntegers);
+				console.log(negative);
+				console.log(median);
+
+	</script>
+
+</body>
+
+</html>
