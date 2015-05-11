@@ -1,0 +1,78 @@
+<html>
+<head>
+
+	<title>Bootstrap2</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+
+  <style type="text/css">
+    .header {
+
+        background-color: #E4E4E5;
+        width: 580px;
+        height: 600px;
+        margin-left: 100px;
+    }
+
+  	.span,.white{
+  		color: white;
+
+  	}
+  	.button{
+
+  		margin-left: 30px;
+  	}
+  	.button, .onclick{
+  		 background-color: #a35b35;
+  	}
+  	.navbar{
+        width: 500px;
+        min-height: 40px;
+        margin-left: 40px;
+        background-color: black;
+
+    }
+
+
+  </style>
+</head>
+<body>
+	<div class = "header">
+    	<div class="navbar navbar-default navbar-static-top" role="navigation">
+
+    	   <button class="btn btn-primary" style= "display: inline">
+            <span class="glyphicon glyphicon-home white" style="vertical-align:middle"></span> 
+          </button>
+        	<div class="dropdown" style= "display: inline">
+          <button class=" btn btn-primary dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-expanded="true">
+            Community
+            <span class="caret"></span>
+          </button>
+              <ul class="dropdown-menu " role="menu" aria-labelledby="dropdownMenu1">
+                <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Recent Activity</a></li>
+                <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Member Forum</a></li>
+                <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Member List</a></li>
+                <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Member Groups</a></li>
+              </ul>
+        </div>
+    	<div class="dropdown" style= "display: inline">
+          <button class="btn btn-primary dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-expanded="true">
+            Pet Help
+            <span class="caret"></span>
+          </button>
+      <div class="dropdown" style= "display: inline">
+          <button class="btn btn-primary dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-expanded="true">
+            Pets for Sale
+            <span class="caret"></span>
+          </button>
+       <div class="dropdown" style= "display: inline">
+          <button class="btn btn-primary dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-expanded="true">
+            Pets Services
+            <span class="caret"></span>
+          </button>
+        </div>
+    </div>
+</body>
+</html>
