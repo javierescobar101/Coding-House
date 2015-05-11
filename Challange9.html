@@ -1,0 +1,30 @@
+<html>
+<head>
+	<title>Challange 9 Palindrome</title>
+</head>
+<script type="text/javascript">
+
+var pali = ["stash","and","pop","on","this","level"];
+var reverse = pali.map(function(element, index) {
+	var split = element.split("");
+		split.reverse();
+		split = split.join("");
+		console.log(split);
+	if(pali[index] === split){
+  		return true;
+	}
+	else{
+		return false;
+	}
+	
+});
+console.log(pali);
+console.log(reverse);
+
+
+
+</script>
+<body>
+
+</body>
+</html>
