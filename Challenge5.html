@@ -1,0 +1,43 @@
+<html>
+<head>
+	<title>Challange 5</title>
+</head>
+<script type="text/javascript">
+
+var txt = "Life is 10% what happens to you, and  90% of how you REACT to it";
+var words = txt.split("");
+
+
+
+function swapCase(){
+ var newWords = words.map(function(element){
+
+	if(element === element.toLowerCase()){
+		return element.toUpperCase();
+
+
+	}
+	else{
+		return(element.toLowerCase());
+	}
+ });
+	return newWords.join("");
+}
+console.log(swapCase());
+
+
+
+
+
+
+
+
+
+
+
+
+</script>
+<body>
+
+</body>
+</html>
